@@ -81,7 +81,7 @@ function checkRemove(k) {
 
 // Counter
 function itemsLeft() {
-  liveCounter = `${tdItems.length - tdItemsCroosed.length} items left`;
+  liveCounter.textContent = `${tdItems.length - tdItemsCroosed.length} items left`;
 }
 
 // show all todos
