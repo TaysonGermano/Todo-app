@@ -1,0 +1,40 @@
+/* dark theme */
+
+.dark {
+  background-color: var(--Very-Dark-Blue);
+  color: #fff;
+}
+
+.dark .hero {
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-image: url("/images/bg-desktop-dark.jpg");
+}
+
+.dark .circle {
+  border: 1px solid var(--Very-Dark-Grayish-Blue-two);
+}
+
+.dark .bgcolor,
+.dark input {
+  background-color: var(--Very-Dark-Desaturated-Blue);
+}
+
+.dark span,
+.dark input::placeholder {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.dark .help {
+  color: var(--Very-Dark-Grayish-Blue-two);
+}
+
+.dark .todo-item {
+  border-bottom: 1px solid var(--Very-Dark-Grayish-Blue-two);
+}
+
+.crossed .content {
+  text-decoration: line-through;
+  color: var(--Dark-Grayish-Blue) !important;
+}

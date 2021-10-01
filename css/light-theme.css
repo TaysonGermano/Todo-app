@@ -1,0 +1,41 @@
+/* light theme */
+
+.light {
+  background-color: var(--Very-Light-Gray);
+  color: var(--Very-Dark-Grayish-Blue);
+}
+
+.light .hero {
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-image: url("/images/bg-desktop-light.jpg");
+}
+
+.light .circle {
+  border: 1px solid var(--Very-Light-Grayish-Blue);
+}
+
+.light .bgcolor,
+.light input {
+  background-color: #fff;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+
+.light span,
+.light input::placeholder {
+  color: var(--Light-Grayish-Blue);
+}
+
+.light .help {
+  color: var(--Very-Light-Grayish-Blue);
+}
+
+.light .todo-item {
+  border-bottom: 1px solid var(--Very-Light-Gray);
+}
+
+.crossed .content {
+  text-decoration: line-through;
+  color: var(--Light-Grayish-Blue);
+}

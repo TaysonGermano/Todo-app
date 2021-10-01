@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="app/script.js" defer></script>
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body class="theme dark">
+    <main>
+      <div class="hero"></div>
+      <div class="container">
+        <div class="header flex">
+          <h1>Todo</h1>
+          <img src="images/icon-sun.svg" alt="Dark/Light" class="dark-mode" />
+        </div>
+        <div class="add-todo bgcolor box flex">
+          <div class="circle-sample"></div>
+          <input
+            type="text"
+            placeholder="Create a new todo..."
+            name="todo"
+            id="todo"
+            class="add"
+          />
+        </div>
+        <div class="todo-list"></div>
+        <div class="options bgcolor flex">
+          <div class="left">
+            <span class="counter">0 items left</span>
+          </div>
+          <div class="middle">
+            <span class="btn-all link active">All</span>
+            <span class="btn-active link">Active</span>
+            <span class="btn-completed link">Completed</span>
+          </div>
+          <div class="right">
+            <span class="btn-clear link">Clear Completed</span>
+          </div>
+        </div>
+        <div class="bgcolor mobile-link box flex">
+          <div>
+            <span class="btn-all link active">All</span>
+            <span class="btn-active link">Active</span>
+            <span class="btn-completed link">Completed</span>
+          </div>
+        </div>
+        <div class="help">Drag and drop to reorder list</div>
+      </div>
+    </main>
+  </body>
+</html>
