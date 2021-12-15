@@ -3,6 +3,7 @@
 .light {
   background-color: var(--Very-Light-Gray);
   color: var(--Very-Dark-Grayish-Blue);
+   transition: all 0.2s ease-in-out;
 }
 
 .light .hero {
