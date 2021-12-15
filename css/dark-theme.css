@@ -3,6 +3,7 @@
 .dark {
   background-color: var(--Very-Dark-Blue);
   color: #fff;
+   transition: all 0.2s ease-in-out;
 }
 
 .dark .hero {
